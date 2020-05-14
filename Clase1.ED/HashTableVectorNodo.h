@@ -27,5 +27,28 @@ public:
 		_elementos.AddFirst(nuevoValor);
 	}
 
+	bool TryGetValue(K llave, V& valor)
+	{
+		valor = -1;
+		bool encontrado = false;
+
+		Nodo<HashTableNodoPair<K, V>>* cursor = _elementos.FirstOrDefault();
+
+		while (cursor != nullptr)
+		{
+			HashTableNodoPair<K, V> pareja = cursor->GetValor();
+			if (pareja.Key == llave)
+			{
+				valor = pareja.Value;
+				encontrado = true;
+				return encontrado;
+			}
+
+			cursor = cursor->GetSiguiente();
+		}
+
+		return encontrado;
+	}
+
 };
 

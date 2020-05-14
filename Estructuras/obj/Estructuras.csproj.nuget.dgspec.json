@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\helsi\\OneDrive\\Unitec Doc\\Estructura\\Estructuras\\Estructuras\\Estructuras.csproj": {}
+    "D:\\New folder\\DET\\Estructuras\\Estructuras.csproj": {}
   },
   "projects": {
-    "C:\\Users\\helsi\\OneDrive\\Unitec Doc\\Estructura\\Estructuras\\Estructuras\\Estructuras.csproj": {
+    "D:\\New folder\\DET\\Estructuras\\Estructuras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helsi\\OneDrive\\Unitec Doc\\Estructura\\Estructuras\\Estructuras\\Estructuras.csproj",
+        "projectUniqueName": "D:\\New folder\\DET\\Estructuras\\Estructuras.csproj",
         "projectName": "Estructuras",
-        "projectPath": "C:\\Users\\helsi\\OneDrive\\Unitec Doc\\Estructura\\Estructuras\\Estructuras\\Estructuras.csproj",
+        "projectPath": "D:\\New folder\\DET\\Estructuras\\Estructuras.csproj",
         "packagesPath": "C:\\Users\\helsi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helsi\\OneDrive\\Unitec Doc\\Estructura\\Estructuras\\Estructuras\\obj\\",
+        "outputPath": "D:\\New folder\\DET\\Estructuras\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

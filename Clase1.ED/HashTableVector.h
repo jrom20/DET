@@ -14,7 +14,9 @@ private:
 
 	int HashFunction(K llave)
 	{
-		int indice = 54654 % 1000;
+		hash<K> funcionhash;
+		size_t indiceHash = funcionhash(llave);
+		int indice = indiceHash % 1000;
 		return indice;
 	}
 
@@ -30,6 +32,11 @@ public:
 		_arreglo[indice].Add(llave, valor);
 	}
 
+	bool TryGetValue(K llave, V& valor)
+	{
+		int indice = HashFunction(llave);
+		return _arreglo[indice].TryGetValue(llave, valor);
+	}
 
 };
 

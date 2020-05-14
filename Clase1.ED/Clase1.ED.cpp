@@ -154,8 +154,8 @@ int main()
 	table.Add("0503", 3);
 	table.Add("0504", 4);
 
-	int valorAlmacenado = -1;
-//	table.TryGetValue("0503", valorAlmacenado);
+	int valorAlmacenado;
+	bool obtenido = table.TryGetValue("050003", valorAlmacenado);
 
 	return 0;
 }

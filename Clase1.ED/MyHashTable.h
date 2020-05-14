@@ -21,5 +21,10 @@ public:
 		_arreglo.Add(llave, valor);
 		Count++;
 	}
+
+	bool TryGetValue(K llave, V& valor)
+	{
+		return _arreglo.TryGetValue(llave, valor);
+	}
 };
 
