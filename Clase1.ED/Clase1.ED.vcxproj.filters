@@ -62,5 +62,11 @@
     <ClInclude Include="MyHashTable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ArbolBinario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoArbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

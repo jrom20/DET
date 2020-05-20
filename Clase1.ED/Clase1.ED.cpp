@@ -10,6 +10,7 @@
 #include "MyQueue.h"
 #include "HashTableVectorNodo.h"
 #include "MyHashTable.h"
+#include "ArbolBinario.h"
 
 using std::string;
 using std::cout;
@@ -148,14 +149,51 @@ int main()
 	//nodo.Add("0503", 3);
 	//nodo.Add("0504", 4);
 
-	MyHashTable<string, int> table;
+	/*MyHashTable<string, int> table;
 	table.Add("0501", 1);
 	table.Add("0502", 2);
 	table.Add("0503", 3);
 	table.Add("0504", 4);
 
 	int valorAlmacenado;
-	bool obtenido = table.TryGetValue("050003", valorAlmacenado);
+	bool obtenido = table.TryGetValue("050003", valorAlmacenado);*/
+
+	////| - - |
+	////////////////| - 21 - |//////////////
+    ///////////////////////////////////
+	//////| - 4 - |////////| - 77 - |////
+	/////////////////////////////////////
+	/////////////////| -37 - |
+	///////////////////////////////////
+	///////////////////////| - 51 - |
+
+	
+	ArbolBinario arbolito;
+
+	arbolito.Agregar("4");
+	arbolito.Agregar("2");
+	arbolito.Agregar("1");
+	arbolito.Agregar("3");
+	arbolito.Agregar("8");
+	arbolito.Agregar("6");
+	arbolito.Agregar("5");
+	arbolito.Agregar("7");
+
+	arbolito.Eliminar("8");
+
+
+	ArbolBinario arbolito2;
+
+	arbolito2.Agregar("4");
+	arbolito2.Agregar("2");
+	arbolito2.Agregar("1");
+	arbolito2.Agregar("3");
+	arbolito2.Agregar("6");
+	arbolito2.Agregar("5");
+	arbolito2.Agregar("7");
+	arbolito2.Agregar("8");
+
+	arbolito2.Eliminar("6");
 
 	return 0;
 }
