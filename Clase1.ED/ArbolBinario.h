@@ -102,13 +102,14 @@ public:
 				Raiz = valorEncontrado->GetDerecho();
 			else
 			{
-				/*if (padreEncontrado->toInt() > valorEncontrado->toInt()) {
+				if (padreEncontrado->toInt() > valorEncontrado->toInt()) 
+				{
 					padreEncontrado->SetIzquierdo(valorEncontrado->GetDerecho());
 				}
 				else if (padreEncontrado->toInt() < valorEncontrado->toInt())
-				{*/
+				{
 					padreEncontrado->SetDerecho(valorEncontrado->GetDerecho());
-				//}
+				}
 			}
 		}
 		else
