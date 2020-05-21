@@ -122,8 +122,23 @@ public:
 				masIzquierdo = masIzquierdo->GetIzquierdo();
 			}
 
+			masIzquierdoPadre->SetIzquierdo(masIzquierdo->GetDerecho());
+			masIzquierdo->SetIzquierdo(valorEncontrado->GetIzquierdo());
+			masIzquierdo->SetDerecho(valorEncontrado->GetDerecho());
 
-
+			if (padreEncontrado == nullptr)
+				Raiz = masIzquierdo;
+			else
+			{
+				if (padreEncontrado->toInt() > valorEncontrado->toInt())
+				{
+					padreEncontrado->SetIzquierdo(masIzquierdo);
+				}
+				else if (padreEncontrado->toInt() < valorEncontrado->toInt())
+				{
+					padreEncontrado->SetDerecho(masIzquierdo);
+				}
+			}
 		}
 
 	}

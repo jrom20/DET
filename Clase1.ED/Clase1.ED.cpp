@@ -190,8 +190,8 @@ int main()
 	arbolito2.Agregar("3");
 	arbolito2.Agregar("6");
 	arbolito2.Agregar("5");
-	arbolito2.Agregar("7");
 	arbolito2.Agregar("8");
+	arbolito2.Agregar("7");
 
 	arbolito2.Eliminar("6");
 
