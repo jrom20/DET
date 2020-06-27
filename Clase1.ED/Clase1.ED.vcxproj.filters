@@ -68,5 +68,8 @@
     <ClInclude Include="NodoArbol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Arista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

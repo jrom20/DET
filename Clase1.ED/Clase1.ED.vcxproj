@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClInclude Include="Acumulador.h" />
     <ClInclude Include="ArbolBinario.h" />
+    <ClInclude Include="Arista.h" />
     <ClInclude Include="HashTableNodoPair.h" />
     <ClInclude Include="HashTableVector.h" />
     <ClInclude Include="HashTableVectorNodo.h" />
