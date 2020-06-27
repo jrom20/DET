@@ -34,12 +34,14 @@ int main()
 	Arista item2("3", 20);
 	Arista item3("4", 30);
 	Arista item4("5", 16);
-	
+	Arista item10("1", 6);
+
 	openSet.push(item);
 	openSet.push(item1);
 	openSet.push(item2);
 	openSet.push(item3);
 	openSet.push(item4);
+	openSet.push(item10);
 
 	while (!openSet.empty())
 	{

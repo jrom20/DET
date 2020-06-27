@@ -15,7 +15,6 @@ C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\bin\Debug\n
 C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\bin\Debug\netcoreapp3.1\Estructuras.runtimeconfig.dev.json
 C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\bin\Debug\netcoreapp3.1\Estructuras.dll
 C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\bin\Debug\netcoreapp3.1\Estructuras.pdb
-C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\obj\Debug\netcoreapp3.1\Estructuras.csprojAssemblyReference.cache
 C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\obj\Debug\netcoreapp3.1\Estructuras.AssemblyInfoInputs.cache
 C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\obj\Debug\netcoreapp3.1\Estructuras.AssemblyInfo.cs
 C:\Users\helsi\OneDrive\Unitec Doc\Estructura\Codigo\DET\Estructuras\obj\Debug\netcoreapp3.1\Estructuras.dll
