@@ -27,7 +27,7 @@ int main()
 {
 	
 	auto compare = [](Arista a, Arista b) { return a.Distancia > b.Distancia; };
-	priority_queue<Arista, std::vector<Arista>, decltype(compare)> openSet(compare);
+	priority_queue<Arista, std::vector<Arista>, decltype(compare)> _queue(compare);
 
 	Arista item("12", 10);
 	Arista item1("2", 15);
@@ -36,18 +36,18 @@ int main()
 	Arista item4("5", 16);
 	Arista item10("1", 6);
 
-	openSet.push(item);
-	openSet.push(item1);
-	openSet.push(item2);
-	openSet.push(item3);
-	openSet.push(item4);
-	openSet.push(item10);
+	_queue.push(item);
+	_queue.push(item1);
+	_queue.push(item2);
+	_queue.push(item3);
+	_queue.push(item4);
+	_queue.push(item10);
 
-	while (!openSet.empty())
+	while (!_queue.empty())
 	{
-		auto savedItem = openSet.top();
+		auto savedItem = _queue.top();
 		cout << "Id: " << savedItem.Id << " - Distancia: " << savedItem.Distancia << endl;
-		openSet.pop();
+		_queue.pop();
 	}
 
 	return 0;
